@@ -1,0 +1,122 @@
+h1 {
+  font-family: 'Alkalami', serif;
+  text-shadow: 6px 5px 8px black;
+}
+
+h4 {
+  margin-bottom: 0;
+  font-size: 25px;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  font-weight: bold;
+  font-family: 'Alkalami', serif;
+}
+
+.copyright {
+  font-family: Arial;
+  font-size: 9px;
+  font-style: italic;
+}
+
+#heroBanner {
+  position: relative;
+  background-image: url(https://images.unsplash.com/photo-1615837197154-2e801f4bd294?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80);
+  width: 100%;
+  height: 45vh;
+  bottom: 15px;
+  background-position: center center;
+  background-size: cover;
+}
+
+#heroBanner h1 {
+  font-size: 80px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#footer {
+  font-family: Arial;
+  font-size: 12px;
+  color: black;
+  background-color: #e0d3d4;
+}
+
+#recipeColumns {
+  position: relative;
+  width: 100%;
+  height: 50vh;
+  display: block;
+}
+
+#recipeColumns div {
+  float: left;
+  display: inline-block;
+  position: relative;
+}
+
+#recipeColumns div#ingredients {
+  width: 33%;
+}
+
+#recipeColumns div#equipment {
+  width: 33%;
+}
+
+#recipeColumns div#directions {
+  width: 33%;
+}
+
+  {
+  box-sizing: border-box;
+}
+
+@media screen and (orientation: portrait) {
+
+  #recipeColumns {
+    padding: 1vh 2vh 2vh 2vh;
+    display: block;
+  }
+  
+  #recipeColumns div {
+    position: relative;
+    font-size: 12px;
+  }
+  
+#footer {
+  font-family: Arial;
+  font-size: 12px;
+  color: black;
+}
+  
+#heroBanner h1 {
+    font-size: 24px;}
+  
+   #footer {
+  font-family: Arial;
+  font-size: 12px;
+  color: black;
+  background-color: white;
+}
+
+
+@media screen and (orientation: portrait) and (max-width: 575px) {
+  #heroBanner {
+    height: 98vh;
+  }
+
+  #heroBanner h1 {
+    font-size: 24px;
+  }
+  
+  #footer {
+  font-family: Arial;
+  font-size: 12px;
+  color: black;
+  background-color: white;
+}
